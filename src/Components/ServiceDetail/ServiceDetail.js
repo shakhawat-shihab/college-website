@@ -45,9 +45,13 @@ const ServiceDetail = () => {
                         {serv?.description}
                     </Card.Text>
                 </Card.Body>
-                <div className='px-2 d-flex justify-content-between'>
-                    <h4 className='text-warning'>
-                        {serv?.cost} ৳
+                <h4 className=' ps-2 text-warning fw-bold'>
+                    Cost: {serv?.cost} ৳
+                </h4>
+                <div className='px-2 d-flex justify-content-between align-items-center'>
+                    <h4 className='text-info fw-bold m-0'>
+                        Service Duration: {serv?.serviceDuration}
+                        <i className="ps-2 fas fa-clock "></i>
                     </h4>
                     <Button variant='primary' onClick={goBackHome} >Go Back To Home</Button>
                 </div>
