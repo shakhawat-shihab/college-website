@@ -12,10 +12,13 @@ import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
 import LogIn from './Components/LogIn/LogIn';
 import useServices from './Hooks/useServices';
 import { createContext } from 'react';
+import Teachers from './Components/Teachers/Teachers';
+import Committee from './Components/Committee/Committee';
 export const MyContext = createContext();
 function App() {
   const [services] = useServices([]);
   const x1 = services;
+  // console.log(x1);
   return (
     <div className='font-poppin'>
       <BrowserRouter>
@@ -38,6 +41,12 @@ function App() {
           </Route>
           <Route path='/login'>
             <LogIn></LogIn>
+          </Route>
+          <Route path='/teachers'>
+            <Teachers></Teachers>
+          </Route>
+          <Route path='/college-committee'>
+            <Committee></Committee>
           </Route>
           <Route exact path='/'>
             <Home></Home>

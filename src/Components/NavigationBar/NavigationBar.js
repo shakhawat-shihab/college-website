@@ -37,8 +37,8 @@ const NavigationBar = () => {
                                 onMouseEnter={() => { setShowAdministrationDropdown(true) }}
                                 onMouseLeave={() => { setShowAdministrationDropdown(false) }}
                             >
-                                <Link to='/college-comitte' className='text-decoration-none dropdown-item'>
-                                    College Executive Comitte
+                                <Link to='/college-committee' className='text-decoration-none dropdown-item'>
+                                    College Executive Committee
                                 </Link>
                                 <Link to='/teachers' className='text-decoration-none dropdown-item'>
                                     Teachers

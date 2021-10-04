@@ -6,7 +6,8 @@ import { MyContext } from '../../App';
 
 const ServiceDetail = () => {
     const { serviceId } = useParams();
-    // const [service, setService] = useState([]);
+    // const [services] = useServices([]);
+    // console.log(services);
     // useEffect(() => {
     //     fetch('./services.json')
     //         .then(resp => resp.json())

@@ -3,10 +3,10 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <div class='container mt-4 mb-4' >
+            <div className='container mt-4 mb-4' >
                 <h2 className='fw-bold text-center'>About CBC</h2>
-                <div class='row justify-content-between mt-2 g-md-5  gy-4'>
-                    <div class='col-md-5 col-sm-5'>
+                <div className='row justify-content-between mt-2 g-md-5  gy-4'>
+                    <div className='col-md-5 col-sm-5'>
                         <div >
                             <h2 className='text-center'>Welcome to <br /> Chattogram Bandar College</h2>
                             <p className='pt-3 text-justified'>Chittagong Port College is one of the welfare institutions run by Chittagong Port Authority, the main driving-force of the economy of Bangladesh. This college started its journey with a view to ensuring quality education enriched with modern information and technology. To build up skilled, proficient and morally upgraded citizens facing the challenge of the 21.</p>
@@ -17,7 +17,7 @@ const About = () => {
                         <div >
                             <div className='row w-100 align-items-center'>
                                 <div className='col-md-5'>
-                                    <img src="https://i.imgur.com/PESh8dM.png" alt="" width='100%' />
+                                    <img src="https://i.imgur.com/gffPbk2.png" alt="" width='100%' />
                                 </div>
                                 <div className='col-md-7'>
                                     <h4 className='' >Chairman's Message</h4>
@@ -41,7 +41,7 @@ const About = () => {
                         <div>
                             <div className='row w-100 '>
                                 <div className='col-md-5'>
-                                    <img src="https://i.imgur.com/PaMKZVT.png" alt="" width='100%' />
+                                    <img src="https://i.imgur.com/EzqEyTX.png" alt="" width='100%' />
                                 </div>
                                 <div className='col-md-7'>
                                     <h4 className='' >Principal's Message:</h4>

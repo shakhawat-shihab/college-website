@@ -21,14 +21,14 @@ const ServiceCard = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <div className='px-2 d-flex justify-content-between'>
-                    <h4 className='text-warning'>
+                    <h4 className='text-warning fw-bold ps-2'>
                         {service.includes('Indoor and Outdoor Sports') &&
                             < span style={{ textDecoration: 'line-through', textDecorationStyle: 'double' }}
                                 className='pe-1'
                             > 50 </span>}
                         {cost} ৳
                     </h4>
-                    <Button variant='primary' onClick={handleServiceClick} >Add to Cart <i className="fas fa-cart-plus ps-1"></i></Button>
+                    <Button variant='primary' onClick={handleServiceClick} >Add to Selected <i className="fas fa-cart-plus ps-1"></i></Button>
                 </div>
             </Card>
         </Col>
