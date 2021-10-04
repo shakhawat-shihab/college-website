@@ -43,7 +43,7 @@ const NavigationBar = () => {
                                 <Link to='/teachers' className='text-decoration-none dropdown-item'>
                                     Teachers
                                 </Link>
-                                <Link to='/' className='text-decoration-none dropdown-item'>
+                                <Link to='/publications' className='text-decoration-none dropdown-item'>
                                     Publications
                                 </Link>
                             </NavDropdown>
@@ -53,10 +53,10 @@ const NavigationBar = () => {
                                 onMouseEnter={() => { setShowAdmissionDropdown(true) }}
                                 onMouseLeave={() => { setShowAdmissionDropdown(false) }}
                             >
-                                <Link to='/' className='text-decoration-none dropdown-item'>
+                                <Link to='/hsc' className='text-decoration-none dropdown-item'>
                                     HSC Admission
                                 </Link>
-                                <Link to='/' className='text-decoration-none dropdown-item'>
+                                <Link to='/hons-admission' className='text-decoration-none dropdown-item'>
                                     Hon's Admission
                                 </Link>
                             </NavDropdown>

@@ -10,7 +10,12 @@ import NotFound from './Components/NotFound/NotFound';
 import About from './Components/About/About';
 import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
 import LogIn from './Components/LogIn/LogIn';
+import useServices from './Hooks/useServices';
+import { createContext } from 'react';
+export const MyContext = createContext();
 function App() {
+  const [services] = useServices([]);
+  const x1 = services;
   return (
     <div className='font-poppin'>
       <BrowserRouter>
@@ -24,7 +29,9 @@ function App() {
             <Services></Services>
           </Route>
           <Route path='/service/:serviceId'>
-            <ServiceDetail></ServiceDetail>
+            <MyContext.Provider value={x1}>
+              <ServiceDetail></ServiceDetail>
+            </MyContext.Provider>
           </Route>
           <Route path='/about'>
             <About></About>
