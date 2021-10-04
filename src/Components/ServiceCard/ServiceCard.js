@@ -34,7 +34,7 @@ const ServiceCard = (props) => {
                         <i className="fas fa-clock pe-2"></i>
                         {serviceDuration}
                     </h5>
-                    <Button variant='primary' onClick={handleServiceClick} >Add to Selected <i className="fas fa-cart-plus ps-1"></i></Button>
+                    <Button variant='primary' onClick={handleServiceClick} >Show Details <i className="fas fa-info-circle ps-1"></i></Button>
                 </div>
             </Card>
         </Col>
