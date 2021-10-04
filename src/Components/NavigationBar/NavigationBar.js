@@ -8,6 +8,11 @@ import './NavigationBar.css'
 const NavigationBar = () => {
     const [showAdministrationDropdown, setShowAdministrationDropdown] = useState(false);
     const [showAdmissionDropdown, setShowAdmissionDropdown] = useState(false);
+    const activeDesign = {
+        fontWeight: "bold",
+        textShadow: '0.4px 0.4px lightgray',
+        letterSpacing: '1px',
+    };
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='border-top' >
@@ -18,10 +23,12 @@ const NavigationBar = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto ">
-                            <NavLink to='/home' className='nav-link link px-3 mx-1 text-decoration-none'>
+                            <NavLink to='/home' className='nav-link link px-3 mx-1 text-decoration-none'
+                                activeStyle={activeDesign} >
                                 Home
                             </NavLink>
-                            <NavLink to='/services' className='nav-link link px-3 mx-1 text-decoration-none'>
+                            <NavLink to='/services' className='nav-link link px-3 mx-1 text-decoration-none'
+                                activeStyle={activeDesign}>
                                 Services
                             </NavLink>
                             <NavDropdown title="Administration"
@@ -53,10 +60,12 @@ const NavigationBar = () => {
                                     Hon's Admission
                                 </Link>
                             </NavDropdown>
-                            <NavLink to='/about' className='nav-link link px-3 mx-1 text-decoration-none'>
+                            <NavLink to='/about' className='nav-link link px-3 mx-1 text-decoration-none'
+                                activeStyle={activeDesign}>
                                 About
                             </NavLink>
-                            <NavLink to='/login' className='nav-link link px-3 mx-1 text-decoration-none'>
+                            <NavLink to='/login' className='nav-link link px-3 mx-1 text-decoration-none'
+                                activeStyle={{}} >
                                 <img src={login} alt="" width='30px' />
                             </NavLink>
                         </Nav>

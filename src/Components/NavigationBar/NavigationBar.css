@@ -1,7 +1,6 @@
 .link,.link >a {
     border-radius: 5px;
     color: #2574a9 !important;
-    font-weight: 600;
 }
 
 .link:hover,.link >a:hover{
@@ -18,7 +17,7 @@
     color: #f9690e !important;
 }
 
-@media (max-width:767px){
+@media (max-width:990px){
     .link:hover,.link >a:hover{
         background-color: initial ;
     }
