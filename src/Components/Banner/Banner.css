@@ -1,0 +1,13 @@
+.length{
+    height: 530px;
+}
+@media (max-width:600px){
+    .length{
+        height: 40px;
+    }
+}
+@media (max-width:900px){
+    .length{
+        height: 300px;
+    }
+}

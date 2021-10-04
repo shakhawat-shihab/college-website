@@ -1,0 +1,13 @@
+.wdth{
+    width: 250px;
+}
+@media (max-width:800px){
+    .wdth{
+        width: 190px;
+    }
+}
+@media (max-width:500px){
+    .wdth{
+        width: 150px;
+    }
+}

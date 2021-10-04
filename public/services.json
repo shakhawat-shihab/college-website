@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "614f6e07cb56036a7419b501",
+        "service": "Academic Support for Science",
+        "picture": "https://i.imgur.com/4k821hC.jpg",
+        "description": " The term academic support may refer to a wide variety of instructional methods, educational services, or school resources provided to students in the effort to help them accelerate their learning progress, catch up with their peers, meet learning standards. Teachers continually monitor student performance and learning needs, and then adjust what they teach or how they teach to improve student learning.",
+        "cost": 1000
+    },
+    {
+        "_id": "614f6e07cb56036a7419b510",
+        "service": "Libray Book Lending Facility",
+        "picture": "https://i.imgur.com/LxZNMId.jpg",
+        "description": "The objective of a college library is to supplement the instructions imparted in the classroom. It aims to function as an independent teaching agency, encouraging and promoting the use of books in the ways beyond those suggested or required by the classroom. The college library functions basically to assist and support the study and teaching in the respective college.",
+        "cost": 30
+    },
+    {
+        "_id": "614f6e07cb56036a7419b502",
+        "service": "Academic Support for Business Study",
+        "picture": "https://i.imgur.com/BtiDejS.jpg",
+        "description": " The term academic support may refer to a wide variety of instructional methods, educational services, or school resources provided to students in the effort to help them accelerate their learning progress, catch up with their peers, meet learning standards. Teachers continually monitor student performance and learning needs, and then adjust what they teach or how they teach to improve student learning.",
+        "cost": 800
+    },
+    {
+        "_id": "614f6e07cb56036a7419b504",
+        "service": "ICT Lab Facility",
+        "picture": "https://i.imgur.com/tIwiV5e.jpg",
+        "description": "A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution. Users typically must follow a certain user policy to retain access to the computers.",
+        "cost": 100
+    },
+    {
+        "_id": "614f6e07cb56036a7419b503",
+        "service": "Academic Support for Arts",
+        "picture": "https://i.imgur.com/BtiDejS.jpg",
+        "description": " The term academic support may refer to a wide variety of instructional methods, educational services, or school resources provided to students in the effort to help them accelerate their learning progress, catch up with their peers, meet learning standards. Teachers continually monitor student performance and learning needs, and then adjust what they teach or how they teach to improve student learning.",
+        "cost": 600
+    },
+    {
+        "_id": "614f6e07cb56036a7419b505",
+        "service": "Science All Subject Lab ",
+        "picture": "https://i.imgur.com/mXQxybj.jpg",
+        "description": "The definition of a science laboratory is a special facility where experiments are done and typically contains equipment, beakers, burners and other tools necessary to complete experiments. Physics laboratory contain a particle accelerator or vacuum chamber, while a metallurgy laboratory have apparatus for casting or refining metals or for testing their strength.",
+        "cost": 400
+    },
+    {
+        "_id": "614f6e07cb56036a7419b506",
+        "service": "Indoor and Outdoor Sports for Refreshment",
+        "picture": "https://i.imgur.com/6lOinqz.jpg",
+        "description": "Games, be it virtual games/indoor games/outdoor games, what kind of effect they have on our lives. Individual have often heard that playing games can make students drift away from their studies and are making them lose track of what is going on, in the classroom as they are always busy thinking about the type of game/s they will be playing once they get back home.",
+        "cost": 0
+    },
+    {
+        "_id": "614f6e07cb56036a7419b507",
+        "service": "Rover Scouting",
+        "picture": "https://i.imgur.com/fHZ5n1G.jpg",
+        "description": "Scouting was founded in 1914 in East Bengal, now Bangladesh, as part of the British Indian branch of The Scout Association. Scouts are involved in community service, major areas being agriculture, health and sanitation, child welfare, community development, construction and repair of low cost housing and sports. ",
+        "cost": 80
+    },
+    {
+        "_id": "614f6e07cb56036a7419b508",
+        "service": "Computer Programming Club",
+        "picture": "https://i.imgur.com/UzdOnXx.jpg",
+        "description": "The Computer Programming Club allows students to refine the programming skills obtained in class in order to compete in different programming events.  Each student can choose to work individually or as part of a team.  They also get to choose what program they would like to create for entry into the programming competitions.  The Computer Programming Club meets every other Wednesday throughout the year. ",
+        "cost": 100
+    },
+    {
+        "_id": "614f6e07cb56036a7419b509",
+        "service": "English Language Club",
+        "picture": "https://i.imgur.com/nX3be0N.jpg",
+        "description": "An English Club is a place for language learners to use English in a casual setting. Practising your skills in the classroom is important, but it is not like real life. In the classroom, you often focus on one skill and one item (for example: grammar - future tense). After learning the rules your teacher gives you time to practise using the item. You have your papers in front of you and the rules are fresh in your mind.",
+        "cost": 50
+    }
+]
