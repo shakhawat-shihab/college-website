@@ -1,0 +1,10 @@
+.teacher-card{
+    border-top-left-radius: 65%;
+    border-top-right-radius: 65%;
+    border-top:0px solid transparent;
+}
+.teacher-card:hover .teacher-img{
+    transform: scale(1.05,1.05);
+    /* box-shadow: 7px 7px 12px lightgray !important; */
+    transition: transform 0.5s ease-in-out ;
+}  

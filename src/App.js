@@ -18,7 +18,7 @@ export const MyContext = createContext();
 function App() {
   const [services] = useServices([]);
   const x1 = services;
-  console.log(x1);
+  //console.log(x1);
   return (
     <div className='font-poppin'>
       <BrowserRouter>
